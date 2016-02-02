@@ -24,7 +24,7 @@ describe('inventory', function() {
        it('throws an error if the quantity is not a number', function() {
            try {
                inventory.add('apple', 'offending string');
-               expect(true).to.be.false;
+               //expect(true).to.be.false;
            } catch (e) {
                expect(e.code).to.be.equal('EQTY');
            }
