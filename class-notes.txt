@@ -1,0 +1,13 @@
+//best practices for creating a directory
+
+root:
+
+index.js - what you use to initiate your app
+node_modules - where the packages live
+package.json - tells you what the dependencies are for you project
+bin - (binary files) this is where the code goes - the core of our project. Also called src, app, whatever
+test(s) - all my js test files. So you can run your tests all at once
+
+//Express
+
+Express is a node library for building custom web servers.
